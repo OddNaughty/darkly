@@ -1,0 +1,5 @@
+Avec Cookies Manager on trouve un cookie "I_am_admin" pour ce site.
+
+Sa valeur est encryptée, mais on va supposer que c'est en MD5, comme pour les tables de `members`. On obtient 'false' en le decryptant.
+On remplace la valeur par le hash de 'true'.
+Bim!

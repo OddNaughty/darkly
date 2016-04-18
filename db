@@ -1,0 +1,1453 @@
+ 
+Table: CHARACTER_SETS
+Colomn : CHARACTER_SET_NAME
+Colomn : DEFAULT_COLLATE_NAME
+Colomn : DESCRIPTION
+Colomn : MAXLEN
+ 
+Table: COLLATIONS
+Colomn : COLLATION_NAME
+Colomn : CHARACTER_SET_NAME
+Colomn : ID
+Colomn : IS_DEFAULT
+Colomn : IS_COMPILED
+Colomn : SORTLEN
+ 
+Table: COLLATION_CHARACTER_SET_APPLICABILITY
+Colomn : COLLATION_NAME
+Colomn : CHARACTER_SET_NAME
+ 
+Table: COLUMNS
+Colomn : TABLE_CATALOG
+Colomn : TABLE_SCHEMA
+Colomn : TABLE_NAME
+Colomn : COLUMN_NAME
+Colomn : ORDINAL_POSITION
+Colomn : COLUMN_DEFAULT
+Colomn : IS_NULLABLE
+Colomn : DATA_TYPE
+Colomn : CHARACTER_MAXIMUM_LENGTH
+Colomn : CHARACTER_OCTET_LENGTH
+Colomn : NUMERIC_PRECISION
+Colomn : NUMERIC_SCALE
+Colomn : CHARACTER_SET_NAME
+Colomn : COLLATION_NAME
+Colomn : COLUMN_TYPE
+Colomn : COLUMN_KEY
+Colomn : EXTRA
+Colomn : PRIVILEGES
+Colomn : COLUMN_COMMENT
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : GRANTEE
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : TABLE_CATALOG
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : TABLE_SCHEMA
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : TABLE_NAME
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : COLUMN_NAME
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : PRIVILEGE_TYPE
+ 
+Table: COLUMN_PRIVILEGES
+Colomn : IS_GRANTABLE
+ 
+Table: ENGINES
+Colomn : ENGINE
+ 
+Table: ENGINES
+Colomn : SUPPORT
+ 
+Table: ENGINES
+Colomn : COMMENT
+ 
+Table: ENGINES
+Colomn : TRANSACTIONS
+ 
+Table: ENGINES
+Colomn : XA
+ 
+Table: ENGINES
+Colomn : SAVEPOINTS
+ 
+Table: EVENTS
+Colomn : EVENT_CATALOG
+ 
+Table: EVENTS
+Colomn : EVENT_SCHEMA
+ 
+Table: EVENTS
+Colomn : EVENT_NAME
+ 
+Table: EVENTS
+Colomn : DEFINER
+ 
+Table: EVENTS
+Colomn : TIME_ZONE
+ 
+Table: EVENTS
+Colomn : EVENT_BODY
+ 
+Table: EVENTS
+Colomn : EVENT_DEFINITION
+ 
+Table: EVENTS
+Colomn : EVENT_TYPE
+ 
+Table: EVENTS
+Colomn : EXECUTE_AT
+ 
+Table: EVENTS
+Colomn : INTERVAL_VALUE
+ 
+Table: EVENTS
+Colomn : INTERVAL_FIELD
+ 
+Table: EVENTS
+Colomn : SQL_MODE
+ 
+Table: EVENTS
+Colomn : STARTS
+ 
+Table: EVENTS
+Colomn : ENDS
+ 
+Table: EVENTS
+Colomn : STATUS
+ 
+Table: EVENTS
+Colomn : ON_COMPLETION
+ 
+Table: EVENTS
+Colomn : CREATED
+ 
+Table: EVENTS
+Colomn : LAST_ALTERED
+ 
+Table: EVENTS
+Colomn : LAST_EXECUTED
+ 
+Table: EVENTS
+Colomn : EVENT_COMMENT
+ 
+Table: EVENTS
+Colomn : ORIGINATOR
+ 
+Table: EVENTS
+Colomn : CHARACTER_SET_CLIENT
+ 
+Table: EVENTS
+Colomn : COLLATION_CONNECTION
+ 
+Table: EVENTS
+Colomn : DATABASE_COLLATION
+ 
+Table: FILES
+Colomn : FILE_ID
+ 
+Table: FILES
+Colomn : FILE_NAME
+ 
+Table: FILES
+Colomn : FILE_TYPE
+ 
+Table: FILES
+Colomn : TABLESPACE_NAME
+ 
+Table: FILES
+Colomn : TABLE_CATALOG
+ 
+Table: FILES
+Colomn : TABLE_SCHEMA
+ 
+Table: FILES
+Colomn : TABLE_NAME
+ 
+Table: FILES
+Colomn : LOGFILE_GROUP_NAME
+ 
+Table: FILES
+Colomn : LOGFILE_GROUP_NUMBER
+ 
+Table: FILES
+Colomn : ENGINE
+ 
+Table: FILES
+Colomn : FULLTEXT_KEYS
+ 
+Table: FILES
+Colomn : DELETED_ROWS
+ 
+Table: FILES
+Colomn : UPDATE_COUNT
+ 
+Table: FILES
+Colomn : FREE_EXTENTS
+ 
+Table: FILES
+Colomn : TOTAL_EXTENTS
+ 
+Table: FILES
+Colomn : EXTENT_SIZE
+ 
+Table: FILES
+Colomn : INITIAL_SIZE
+ 
+Table: FILES
+Colomn : MAXIMUM_SIZE
+ 
+Table: FILES
+Colomn : AUTOEXTEND_SIZE
+ 
+Table: FILES
+Colomn : CREATION_TIME
+ 
+Table: FILES
+Colomn : LAST_UPDATE_TIME
+ 
+Table: FILES
+Colomn : LAST_ACCESS_TIME
+ 
+Table: FILES
+Colomn : RECOVER_TIME
+ 
+Table: FILES
+Colomn : TRANSACTION_COUNTER
+ 
+Table: FILES
+Colomn : VERSION
+ 
+Table: FILES
+Colomn : ROW_FORMAT
+ 
+Table: FILES
+Colomn : TABLE_ROWS
+ 
+Table: FILES
+Colomn : AVG_ROW_LENGTH
+ 
+Table: FILES
+Colomn : DATA_LENGTH
+ 
+Table: FILES
+Colomn : MAX_DATA_LENGTH
+ 
+Table: FILES
+Colomn : INDEX_LENGTH
+ 
+Table: FILES
+Colomn : DATA_FREE
+ 
+Table: FILES
+Colomn : CREATE_TIME
+ 
+Table: FILES
+Colomn : UPDATE_TIME
+ 
+Table: FILES
+Colomn : CHECK_TIME
+ 
+Table: FILES
+Colomn : CHECKSUM
+ 
+Table: FILES
+Colomn : STATUS
+ 
+Table: FILES
+Colomn : EXTRA
+ 
+Table: GLOBAL_STATUS
+Colomn : VARIABLE_NAME
+ 
+Table: GLOBAL_STATUS
+Colomn : VARIABLE_VALUE
+ 
+Table: GLOBAL_VARIABLES
+Colomn : VARIABLE_NAME
+ 
+Table: GLOBAL_VARIABLES
+Colomn : VARIABLE_VALUE
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : CONSTRAINT_CATALOG
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : CONSTRAINT_SCHEMA
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : CONSTRAINT_NAME
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : TABLE_CATALOG
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : TABLE_SCHEMA
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : TABLE_NAME
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : COLUMN_NAME
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : ORDINAL_POSITION
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : POSITION_IN_UNIQUE_CONSTRAINT
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : REFERENCED_TABLE_SCHEMA
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : REFERENCED_TABLE_NAME
+ 
+Table: KEY_COLUMN_USAGE
+Colomn : REFERENCED_COLUMN_NAME
+ 
+Table: PARAMETERS
+Colomn : SPECIFIC_CATALOG
+ 
+Table: PARAMETERS
+Colomn : SPECIFIC_SCHEMA
+ 
+Table: PARAMETERS
+Colomn : SPECIFIC_NAME
+ 
+Table: PARAMETERS
+Colomn : ORDINAL_POSITION
+ 
+Table: PARAMETERS
+Colomn : PARAMETER_MODE
+ 
+Table: PARAMETERS
+Colomn : PARAMETER_NAME
+ 
+Table: PARAMETERS
+Colomn : DATA_TYPE
+ 
+Table: PARAMETERS
+Colomn : CHARACTER_MAXIMUM_LENGTH
+ 
+Table: PARAMETERS
+Colomn : CHARACTER_OCTET_LENGTH
+ 
+Table: PARAMETERS
+Colomn : NUMERIC_PRECISION
+ 
+Table: PARAMETERS
+Colomn : NUMERIC_SCALE
+ 
+Table: PARAMETERS
+Colomn : CHARACTER_SET_NAME
+ 
+Table: PARAMETERS
+Colomn : COLLATION_NAME
+ 
+Table: PARAMETERS
+Colomn : DTD_IDENTIFIER
+ 
+Table: PARAMETERS
+Colomn : ROUTINE_TYPE
+ 
+Table: PARTITIONS
+Colomn : TABLE_CATALOG
+ 
+Table: PARTITIONS
+Colomn : TABLE_SCHEMA
+ 
+Table: PARTITIONS
+Colomn : TABLE_NAME
+ 
+Table: PARTITIONS
+Colomn : PARTITION_NAME
+ 
+Table: PARTITIONS
+Colomn : SUBPARTITION_NAME
+ 
+Table: PARTITIONS
+Colomn : PARTITION_ORDINAL_POSITION
+ 
+Table: PARTITIONS
+Colomn : SUBPARTITION_ORDINAL_POSITION
+ 
+Table: PARTITIONS
+Colomn : PARTITION_METHOD
+ 
+Table: PARTITIONS
+Colomn : SUBPARTITION_METHOD
+ 
+Table: PARTITIONS
+Colomn : PARTITION_EXPRESSION
+ 
+Table: PARTITIONS
+Colomn : SUBPARTITION_EXPRESSION
+ 
+Table: PARTITIONS
+Colomn : PARTITION_DESCRIPTION
+ 
+Table: PARTITIONS
+Colomn : TABLE_ROWS
+ 
+Table: PARTITIONS
+Colomn : AVG_ROW_LENGTH
+ 
+Table: PARTITIONS
+Colomn : DATA_LENGTH
+ 
+Table: PARTITIONS
+Colomn : MAX_DATA_LENGTH
+ 
+Table: PARTITIONS
+Colomn : INDEX_LENGTH
+ 
+Table: PARTITIONS
+Colomn : DATA_FREE
+ 
+Table: PARTITIONS
+Colomn : CREATE_TIME
+ 
+Table: PARTITIONS
+Colomn : UPDATE_TIME
+ 
+Table: PARTITIONS
+Colomn : CHECK_TIME
+ 
+Table: PARTITIONS
+Colomn : CHECKSUM
+ 
+Table: PARTITIONS
+Colomn : PARTITION_COMMENT
+ 
+Table: PARTITIONS
+Colomn : NODEGROUP
+ 
+Table: PARTITIONS
+Colomn : TABLESPACE_NAME
+ 
+Table: PLUGINS
+Colomn : PLUGIN_NAME
+ 
+Table: PLUGINS
+Colomn : PLUGIN_VERSION
+ 
+Table: PLUGINS
+Colomn : PLUGIN_STATUS
+ 
+Table: PLUGINS
+Colomn : PLUGIN_TYPE
+ 
+Table: PLUGINS
+Colomn : PLUGIN_TYPE_VERSION
+ 
+Table: PLUGINS
+Colomn : PLUGIN_LIBRARY
+ 
+Table: PLUGINS
+Colomn : PLUGIN_LIBRARY_VERSION
+ 
+Table: PLUGINS
+Colomn : PLUGIN_AUTHOR
+ 
+Table: PLUGINS
+Colomn : PLUGIN_DESCRIPTION
+ 
+Table: PLUGINS
+Colomn : PLUGIN_LICENSE
+ 
+Table: PLUGINS
+Colomn : LOAD_OPTION
+ 
+Table: PROCESSLIST
+Colomn : ID
+ 
+Table: PROCESSLIST
+Colomn : USER
+ 
+Table: PROCESSLIST
+Colomn : HOST
+ 
+Table: PROCESSLIST
+Colomn : DB
+ 
+Table: PROCESSLIST
+Colomn : COMMAND
+ 
+Table: PROCESSLIST
+Colomn : TIME
+ 
+Table: PROCESSLIST
+Colomn : STATE
+ 
+Table: PROCESSLIST
+Colomn : INFO
+ 
+Table: PROFILING
+Colomn : QUERY_ID
+ 
+Table: PROFILING
+Colomn : SEQ
+ 
+Table: PROFILING
+Colomn : STATE
+ 
+Table: PROFILING
+Colomn : DURATION
+ 
+Table: PROFILING
+Colomn : CPU_USER
+ 
+Table: PROFILING
+Colomn : CPU_SYSTEM
+ 
+Table: PROFILING
+Colomn : CONTEXT_VOLUNTARY
+ 
+Table: PROFILING
+Colomn : CONTEXT_INVOLUNTARY
+ 
+Table: PROFILING
+Colomn : BLOCK_OPS_IN
+ 
+Table: PROFILING
+Colomn : BLOCK_OPS_OUT
+ 
+Table: PROFILING
+Colomn : MESSAGES_SENT
+ 
+Table: PROFILING
+Colomn : MESSAGES_RECEIVED
+ 
+Table: PROFILING
+Colomn : PAGE_FAULTS_MAJOR
+ 
+Table: PROFILING
+Colomn : PAGE_FAULTS_MINOR
+ 
+Table: PROFILING
+Colomn : SWAPS
+ 
+Table: PROFILING
+Colomn : SOURCE_FUNCTION
+ 
+Table: PROFILING
+Colomn : SOURCE_FILE
+ 
+Table: PROFILING
+Colomn : SOURCE_LINE
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : CONSTRAINT_CATALOG
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : CONSTRAINT_SCHEMA
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : CONSTRAINT_NAME
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : UNIQUE_CONSTRAINT_CATALOG
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : UNIQUE_CONSTRAINT_SCHEMA
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : UNIQUE_CONSTRAINT_NAME
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : MATCH_OPTION
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : UPDATE_RULE
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : DELETE_RULE
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : TABLE_NAME
+ 
+Table: REFERENTIAL_CONSTRAINTS
+Colomn : REFERENCED_TABLE_NAME
+ 
+Table: ROUTINES
+Colomn : SPECIFIC_NAME
+ 
+Table: ROUTINES
+Colomn : ROUTINE_CATALOG
+ 
+Table: ROUTINES
+Colomn : ROUTINE_SCHEMA
+ 
+Table: ROUTINES
+Colomn : ROUTINE_NAME
+ 
+Table: ROUTINES
+Colomn : ROUTINE_TYPE
+ 
+Table: ROUTINES
+Colomn : DATA_TYPE
+ 
+Table: ROUTINES
+Colomn : CHARACTER_MAXIMUM_LENGTH
+ 
+Table: ROUTINES
+Colomn : CHARACTER_OCTET_LENGTH
+ 
+Table: ROUTINES
+Colomn : NUMERIC_PRECISION
+ 
+Table: ROUTINES
+Colomn : NUMERIC_SCALE
+ 
+Table: ROUTINES
+Colomn : CHARACTER_SET_NAME
+ 
+Table: ROUTINES
+Colomn : COLLATION_NAME
+ 
+Table: ROUTINES
+Colomn : DTD_IDENTIFIER
+ 
+Table: ROUTINES
+Colomn : ROUTINE_BODY
+ 
+Table: ROUTINES
+Colomn : ROUTINE_DEFINITION
+ 
+Table: ROUTINES
+Colomn : EXTERNAL_NAME
+ 
+Table: ROUTINES
+Colomn : EXTERNAL_LANGUAGE
+ 
+Table: ROUTINES
+Colomn : PARAMETER_STYLE
+ 
+Table: ROUTINES
+Colomn : IS_DETERMINISTIC
+ 
+Table: ROUTINES
+Colomn : SQL_DATA_ACCESS
+ 
+Table: ROUTINES
+Colomn : SQL_PATH
+ 
+Table: ROUTINES
+Colomn : SECURITY_TYPE
+ 
+Table: ROUTINES
+Colomn : CREATED
+ 
+Table: ROUTINES
+Colomn : LAST_ALTERED
+ 
+Table: ROUTINES
+Colomn : SQL_MODE
+ 
+Table: ROUTINES
+Colomn : ROUTINE_COMMENT
+ 
+Table: ROUTINES
+Colomn : DEFINER
+ 
+Table: ROUTINES
+Colomn : CHARACTER_SET_CLIENT
+ 
+Table: ROUTINES
+Colomn : COLLATION_CONNECTION
+ 
+Table: ROUTINES
+Colomn : DATABASE_COLLATION
+ 
+Table: SCHEMATA
+Colomn : CATALOG_NAME
+ 
+Table: SCHEMATA
+Colomn : SCHEMA_NAME
+ 
+Table: SCHEMATA
+Colomn : DEFAULT_CHARACTER_SET_NAME
+ 
+Table: SCHEMATA
+Colomn : DEFAULT_COLLATION_NAME
+ 
+Table: SCHEMATA
+Colomn : SQL_PATH
+ 
+Table: SCHEMA_PRIVILEGES
+Colomn : GRANTEE
+ 
+Table: SCHEMA_PRIVILEGES
+Colomn : TABLE_CATALOG
+ 
+Table: SCHEMA_PRIVILEGES
+Colomn : TABLE_SCHEMA
+ 
+Table: SCHEMA_PRIVILEGES
+Colomn : PRIVILEGE_TYPE
+ 
+Table: SCHEMA_PRIVILEGES
+Colomn : IS_GRANTABLE
+ 
+Table: SESSION_STATUS
+Colomn : VARIABLE_NAME
+ 
+Table: SESSION_STATUS
+Colomn : VARIABLE_VALUE
+ 
+Table: SESSION_VARIABLES
+Colomn : VARIABLE_NAME
+ 
+Table: SESSION_VARIABLES
+Colomn : VARIABLE_VALUE
+ 
+Table: STATISTICS
+Colomn : TABLE_CATALOG
+ 
+Table: STATISTICS
+Colomn : TABLE_SCHEMA
+ 
+Table: STATISTICS
+Colomn : TABLE_NAME
+ 
+Table: STATISTICS
+Colomn : NON_UNIQUE
+ 
+Table: STATISTICS
+Colomn : INDEX_SCHEMA
+ 
+Table: STATISTICS
+Colomn : INDEX_NAME
+ 
+Table: STATISTICS
+Colomn : SEQ_IN_INDEX
+ 
+Table: STATISTICS
+Colomn : COLUMN_NAME
+ 
+Table: STATISTICS
+Colomn : COLLATION
+ 
+Table: STATISTICS
+Colomn : CARDINALITY
+ 
+Table: STATISTICS
+Colomn : SUB_PART
+ 
+Table: STATISTICS
+Colomn : PACKED
+ 
+Table: STATISTICS
+Colomn : NULLABLE
+ 
+Table: STATISTICS
+Colomn : INDEX_TYPE
+ 
+Table: STATISTICS
+Colomn : COMMENT
+ 
+Table: STATISTICS
+Colomn : INDEX_COMMENT
+ 
+Table: TABLES
+Colomn : TABLE_CATALOG
+ 
+Table: TABLES
+Colomn : TABLE_SCHEMA
+ 
+Table: TABLES
+Colomn : TABLE_NAME
+ 
+Table: TABLES
+Colomn : TABLE_TYPE
+ 
+Table: TABLES
+Colomn : ENGINE
+ 
+Table: TABLES
+Colomn : VERSION
+ 
+Table: TABLES
+Colomn : ROW_FORMAT
+ 
+Table: TABLES
+Colomn : TABLE_ROWS
+ 
+Table: TABLES
+Colomn : AVG_ROW_LENGTH
+ 
+Table: TABLES
+Colomn : DATA_LENGTH
+ 
+Table: TABLES
+Colomn : MAX_DATA_LENGTH
+ 
+Table: TABLES
+Colomn : INDEX_LENGTH
+ 
+Table: TABLES
+Colomn : DATA_FREE
+ 
+Table: TABLES
+Colomn : AUTO_INCREMENT
+ 
+Table: TABLES
+Colomn : CREATE_TIME
+ 
+Table: TABLES
+Colomn : UPDATE_TIME
+ 
+Table: TABLES
+Colomn : CHECK_TIME
+ 
+Table: TABLES
+Colomn : TABLE_COLLATION
+ 
+Table: TABLES
+Colomn : CHECKSUM
+ 
+Table: TABLES
+Colomn : CREATE_OPTIONS
+ 
+Table: TABLES
+Colomn : TABLE_COMMENT
+ 
+Table: TABLESPACES
+Colomn : TABLESPACE_NAME
+ 
+Table: TABLESPACES
+Colomn : ENGINE
+ 
+Table: TABLESPACES
+Colomn : TABLESPACE_TYPE
+ 
+Table: TABLESPACES
+Colomn : LOGFILE_GROUP_NAME
+ 
+Table: TABLESPACES
+Colomn : EXTENT_SIZE
+ 
+Table: TABLESPACES
+Colomn : AUTOEXTEND_SIZE
+ 
+Table: TABLESPACES
+Colomn : MAXIMUM_SIZE
+ 
+Table: TABLESPACES
+Colomn : NODEGROUP_ID
+ 
+Table: TABLESPACES
+Colomn : TABLESPACE_COMMENT
+ 
+Table: TABLE_CONSTRAINTS
+Colomn : CONSTRAINT_CATALOG
+ 
+Table: TABLE_CONSTRAINTS
+Colomn : CONSTRAINT_SCHEMA
+ 
+Table: TABLE_CONSTRAINTS
+Colomn : CONSTRAINT_NAME
+ 
+Table: TABLE_CONSTRAINTS
+Colomn : TABLE_SCHEMA
+ 
+Table: TABLE_CONSTRAINTS
+Colomn : TABLE_NAME
+ 
+Table: TABLE_CONSTRAINTS
+Colomn : CONSTRAINT_TYPE
+ 
+Table: TABLE_PRIVILEGES
+Colomn : GRANTEE
+ 
+Table: TABLE_PRIVILEGES
+Colomn : TABLE_CATALOG
+ 
+Table: TABLE_PRIVILEGES
+Colomn : TABLE_SCHEMA
+ 
+Table: TABLE_PRIVILEGES
+Colomn : TABLE_NAME
+ 
+Table: TABLE_PRIVILEGES
+Colomn : PRIVILEGE_TYPE
+ 
+Table: TABLE_PRIVILEGES
+Colomn : IS_GRANTABLE
+ 
+Table: TRIGGERS
+Colomn : TRIGGER_CATALOG
+ 
+Table: TRIGGERS
+Colomn : TRIGGER_SCHEMA
+ 
+Table: TRIGGERS
+Colomn : TRIGGER_NAME
+ 
+Table: TRIGGERS
+Colomn : EVENT_MANIPULATION
+ 
+Table: TRIGGERS
+Colomn : EVENT_OBJECT_CATALOG
+ 
+Table: TRIGGERS
+Colomn : EVENT_OBJECT_SCHEMA
+ 
+Table: TRIGGERS
+Colomn : EVENT_OBJECT_TABLE
+ 
+Table: TRIGGERS
+Colomn : ACTION_ORDER
+ 
+Table: TRIGGERS
+Colomn : ACTION_CONDITION
+ 
+Table: TRIGGERS
+Colomn : ACTION_STATEMENT
+ 
+Table: TRIGGERS
+Colomn : ACTION_ORIENTATION
+ 
+Table: TRIGGERS
+Colomn : ACTION_TIMING
+ 
+Table: TRIGGERS
+Colomn : ACTION_REFERENCE_OLD_TABLE
+ 
+Table: TRIGGERS
+Colomn : ACTION_REFERENCE_NEW_TABLE
+ 
+Table: TRIGGERS
+Colomn : ACTION_REFERENCE_OLD_ROW
+ 
+Table: TRIGGERS
+Colomn : ACTION_REFERENCE_NEW_ROW
+ 
+Table: TRIGGERS
+Colomn : CREATED
+ 
+Table: TRIGGERS
+Colomn : SQL_MODE
+ 
+Table: TRIGGERS
+Colomn : DEFINER
+ 
+Table: TRIGGERS
+Colomn : CHARACTER_SET_CLIENT
+ 
+Table: TRIGGERS
+Colomn : COLLATION_CONNECTION
+ 
+Table: TRIGGERS
+Colomn : DATABASE_COLLATION
+ 
+Table: USER_PRIVILEGES
+Colomn : GRANTEE
+ 
+Table: USER_PRIVILEGES
+Colomn : TABLE_CATALOG
+ 
+Table: USER_PRIVILEGES
+Colomn : PRIVILEGE_TYPE
+ 
+Table: USER_PRIVILEGES
+Colomn : IS_GRANTABLE
+ 
+Table: VIEWS
+Colomn : TABLE_CATALOG
+ 
+Table: VIEWS
+Colomn : TABLE_SCHEMA
+ 
+Table: VIEWS
+Colomn : TABLE_NAME
+ 
+Table: VIEWS
+Colomn : VIEW_DEFINITION
+ 
+Table: VIEWS
+Colomn : CHECK_OPTION
+ 
+Table: VIEWS
+Colomn : IS_UPDATABLE
+ 
+Table: VIEWS
+Colomn : DEFINER
+ 
+Table: VIEWS
+Colomn : SECURITY_TYPE
+ 
+Table: VIEWS
+Colomn : CHARACTER_SET_CLIENT
+ 
+Table: VIEWS
+Colomn : COLLATION_CONNECTION
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : POOL_ID
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : BLOCK_ID
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : SPACE
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : PAGE_NUMBER
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : PAGE_TYPE
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : FLUSH_TYPE
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : FIX_COUNT
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : IS_HASHED
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : NEWEST_MODIFICATION
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : OLDEST_MODIFICATION
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : ACCESS_TIME
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : TABLE_NAME
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : INDEX_NAME
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : NUMBER_RECORDS
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : DATA_SIZE
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : COMPRESSED_SIZE
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : PAGE_STATE
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : IO_FIX
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : IS_OLD
+ 
+Table: INNODB_BUFFER_PAGE
+Colomn : FREE_PAGE_CLOCK
+ 
+Table: INNODB_TRX
+Colomn : trx_id
+ 
+Table: INNODB_TRX
+Colomn : trx_state
+ 
+Table: INNODB_TRX
+Colomn : trx_started
+ 
+Table: INNODB_TRX
+Colomn : trx_requested_lock_id
+ 
+Table: INNODB_TRX
+Colomn : trx_wait_started
+ 
+Table: INNODB_TRX
+Colomn : trx_weight
+ 
+Table: INNODB_TRX
+Colomn : trx_mysql_thread_id
+ 
+Table: INNODB_TRX
+Colomn : trx_query
+ 
+Table: INNODB_TRX
+Colomn : trx_operation_state
+ 
+Table: INNODB_TRX
+Colomn : trx_tables_in_use
+ 
+Table: INNODB_TRX
+Colomn : trx_tables_locked
+ 
+Table: INNODB_TRX
+Colomn : trx_lock_structs
+ 
+Table: INNODB_TRX
+Colomn : trx_lock_memory_bytes
+ 
+Table: INNODB_TRX
+Colomn : trx_rows_locked
+ 
+Table: INNODB_TRX
+Colomn : trx_rows_modified
+ 
+Table: INNODB_TRX
+Colomn : trx_concurrency_tickets
+ 
+Table: INNODB_TRX
+Colomn : trx_isolation_level
+ 
+Table: INNODB_TRX
+Colomn : trx_unique_checks
+ 
+Table: INNODB_TRX
+Colomn : trx_foreign_key_checks
+ 
+Table: INNODB_TRX
+Colomn : trx_last_foreign_key_error
+ 
+Table: INNODB_TRX
+Colomn : trx_adaptive_hash_latched
+ 
+Table: INNODB_TRX
+Colomn : trx_adaptive_hash_timeout
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : POOL_ID
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : POOL_SIZE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : FREE_BUFFERS
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : DATABASE_PAGES
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : OLD_DATABASE_PAGES
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : MODIFIED_DATABASE_PAGES
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PENDING_DECOMPRESS
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PENDING_READS
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PENDING_FLUSH_LRU
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PENDING_FLUSH_LIST
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_MADE_YOUNG
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_NOT_MADE_YOUNG
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_MADE_YOUNG_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_MADE_NOT_YOUNG_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NUMBER_PAGES_READ
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NUMBER_PAGES_CREATED
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NUMBER_PAGES_WRITTEN
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_READ_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_CREATE_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : PAGES_WRITTEN_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NUMBER_PAGES_GET
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : HIT_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : YOUNG_MAKE_PER_THOUSAND_GETS
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NOT_YOUNG_MAKE_PER_THOUSAND_GETS
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NUMBER_PAGES_READ_AHEAD
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : NUMBER_READ_AHEAD_EVICTED
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : READ_AHEAD_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : READ_AHEAD_EVICTED_RATE
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : LRU_IO_TOTAL
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : LRU_IO_CURRENT
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : UNCOMPRESS_TOTAL
+ 
+Table: INNODB_BUFFER_POOL_STATS
+Colomn : UNCOMPRESS_CURRENT
+ 
+Table: INNODB_LOCK_WAITS
+Colomn : requesting_trx_id
+ 
+Table: INNODB_LOCK_WAITS
+Colomn : requested_lock_id
+ 
+Table: INNODB_LOCK_WAITS
+Colomn : blocking_trx_id
+ 
+Table: INNODB_LOCK_WAITS
+Colomn : blocking_lock_id
+ 
+Table: INNODB_CMPMEM
+Colomn : page_size
+ 
+Table: INNODB_CMPMEM
+Colomn : buffer_pool_instance
+ 
+Table: INNODB_CMPMEM
+Colomn : pages_used
+ 
+Table: INNODB_CMPMEM
+Colomn : pages_free
+ 
+Table: INNODB_CMPMEM
+Colomn : relocation_ops
+ 
+Table: INNODB_CMPMEM
+Colomn : relocation_time
+ 
+Table: INNODB_CMP
+Colomn : page_size
+ 
+Table: INNODB_CMP
+Colomn : compress_ops
+ 
+Table: INNODB_CMP
+Colomn : compress_ops_ok
+ 
+Table: INNODB_CMP
+Colomn : compress_time
+ 
+Table: INNODB_CMP
+Colomn : uncompress_ops
+ 
+Table: INNODB_CMP
+Colomn : uncompress_time
+ 
+Table: INNODB_LOCKS
+Colomn : lock_id
+ 
+Table: INNODB_LOCKS
+Colomn : lock_trx_id
+ 
+Table: INNODB_LOCKS
+Colomn : lock_mode
+ 
+Table: INNODB_LOCKS
+Colomn : lock_type
+ 
+Table: INNODB_LOCKS
+Colomn : lock_table
+ 
+Table: INNODB_LOCKS
+Colomn : lock_index
+ 
+Table: INNODB_LOCKS
+Colomn : lock_space
+ 
+Table: INNODB_LOCKS
+Colomn : lock_page
+ 
+Table: INNODB_LOCKS
+Colomn : lock_rec
+ 
+Table: INNODB_LOCKS
+Colomn : lock_data
+ 
+Table: INNODB_CMPMEM_RESET
+Colomn : page_size
+ 
+Table: INNODB_CMPMEM_RESET
+Colomn : buffer_pool_instance
+ 
+Table: INNODB_CMPMEM_RESET
+Colomn : pages_used
+ 
+Table: INNODB_CMPMEM_RESET
+Colomn : pages_free
+ 
+Table: INNODB_CMPMEM_RESET
+Colomn : relocation_ops
+ 
+Table: INNODB_CMPMEM_RESET
+Colomn : relocation_time
+ 
+Table: INNODB_CMP_RESET
+Colomn : page_size
+ 
+Table: INNODB_CMP_RESET
+Colomn : compress_ops
+ 
+Table: INNODB_CMP_RESET
+Colomn : compress_ops_ok
+ 
+Table: INNODB_CMP_RESET
+Colomn : compress_time
+ 
+Table: INNODB_CMP_RESET
+Colomn : uncompress_ops
+ 
+Table: INNODB_CMP_RESET
+Colomn : uncompress_time
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : POOL_ID
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : LRU_POSITION
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : SPACE
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : PAGE_NUMBER
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : PAGE_TYPE
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : FLUSH_TYPE
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : FIX_COUNT
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : IS_HASHED
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : NEWEST_MODIFICATION
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : OLDEST_MODIFICATION
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : ACCESS_TIME
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : TABLE_NAME
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : INDEX_NAME
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : NUMBER_RECORDS
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : DATA_SIZE
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : COMPRESSED_SIZE
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : COMPRESSED
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : IO_FIX
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : IS_OLD
+ 
+Table: INNODB_BUFFER_PAGE_LRU
+Colomn : FREE_PAGE_CLOCK
+ 
+Table: db_default
+Colomn : id
+ 
+Table: db_default
+Colomn : username
+ 
+Table: db_default
+Colomn : password
+ 
+Table: users
+Colomn : user_id
+ 
+Table: users
+Colomn : first_name
+ 
+Table: users
+Colomn : last_name
+ 
+Table: users
+Colomn : town
+ 
+Table: users
+Colomn : country
+ 
+Table: users
+Colomn : planet
+ 
+Table: users
+Colomn : Commentaire
+ 
+Table: users
+Colomn : countersign
+ 
+Table: guestbook
+Colomn : id_comment
+ 
+Table: guestbook
+Colomn : comment
+ 
+Table: guestbook
+Colomn : name
+ 
+Table: list_images
+Colomn : id
+ 
+Table: list_images
+Colomn : url
+ 
+Table: list_images
+Colomn : title
+ 
+Table: list_images
+Colomn : comment
+ 
+Table: vote_dbs
+Colomn : id_vote
+ 
+Table: vote_dbs
+Colomn : vote
+ 
+Table: vote_dbs
+Colomn : nb_vote
+ 
+Table: vote_dbs
+Colomn : subject
+
