@@ -1,0 +1,2 @@
+La page `recover password` nous envoie péter lors du submit.
+En examinant la page on trouve un <input type="hidden" ...>. On sa value avec un inspect élement et bim!

