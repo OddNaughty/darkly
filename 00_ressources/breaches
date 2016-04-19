@@ -1,5 +1,12 @@
+Points d'entrée:
+
 http://192.168.7.128/admin/
 http://192.168.7.128/?page=feedback
 http://192.168.7.128/?page=signin
 http://192.168.7.128/?page=upload
 http://192.168.7.128/?page=media&src=nsa
+
+--------------------------------------------------
+Pistes:
+- On a conseillé d'installer NoScript et Firebug mais on a encore rien trouvé avec du JS. Check de ce coté là?
+- À voir aussi si on trouve pas des trucs cool une fois qu'on s'est log. Genre de nouvelles pages avec de nouveaux exploits.
