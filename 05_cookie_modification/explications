@@ -1,0 +1,7 @@
+Avec Cookies Manager on trouve un cookie "I_am_admin" pour ce site.
+
+Sa valeur est encryptée, mais on va supposer que c'est en MD5, comme pour le countersign trouvé dans `members`. Et en effet, on obtient 'false' en le decryptant.
+
+On remplace la valeur par le hash MD5 de 'true'.
+
+Bim!

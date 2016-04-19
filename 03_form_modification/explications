@@ -1,0 +1,6 @@
+http://192.168.7.128/?page=survey
+
+
+Sur la page survey, en modifiant l'input valeur, on peut mettre des valeurs non prévue en modifiant le champ `value` dans une balise `<option>`.
+
+Bim!

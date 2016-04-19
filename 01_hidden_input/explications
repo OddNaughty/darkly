@@ -1,0 +1,4 @@
+http://192.168.7.128/?page=recover
+
+La page `recover password` nous envoie péter lors du submit.
+En examinant la page on trouve un <input type="hidden" name="email" ...>. On change sa value avec un inspect élement et bim!
