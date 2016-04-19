@@ -1387,67 +1387,33 @@ Colomn : FREE_PAGE_CLOCK
  
 Table: db_default
 Colomn : id
- 
-Table: db_default
 Colomn : username
- 
-Table: db_default
 Colomn : password
  
 Table: users
 Colomn : user_id
- 
-Table: users
 Colomn : first_name
- 
-Table: users
 Colomn : last_name
- 
-Table: users
 Colomn : town
- 
-Table: users
 Colomn : country
- 
-Table: users
 Colomn : planet
- 
-Table: users
 Colomn : Commentaire
- 
-Table: users
 Colomn : countersign
  
 Table: guestbook
 Colomn : id_comment
- 
-Table: guestbook
 Colomn : comment
- 
-Table: guestbook
 Colomn : name
  
 Table: list_images
 Colomn : id
- 
-Table: list_images
 Colomn : url
- 
-Table: list_images
 Colomn : title
- 
-Table: list_images
 Colomn : comment
  
 Table: vote_dbs
 Colomn : id_vote
- 
-Table: vote_dbs
 Colomn : vote
- 
-Table: vote_dbs
 Colomn : nb_vote
- 
-Table: vote_dbs
 Colomn : subject
 

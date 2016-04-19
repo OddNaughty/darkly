@@ -1,0 +1,9 @@
+On vois dans le code source un commentaire "you must came from https://www.nsa.gov/ to go to the next step".
+
+Avec le plugin ref_control on change le referrer pour `https://www.nsa.gov/`.
+
+On reload la page: Un magnifique `FIRST STEP DONE`.
+
+On continue à reluquer les commentaires, et on tombe sur un `let's use this browser : "ft_bornToSec". It will help you a lot.`
+
+Avec `User Agent Swticher` on change le user agent pour `ft_bornToSec`, on reload et... BIM!
