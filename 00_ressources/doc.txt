@@ -1,0 +1,7 @@
+https://www.owasp.org/index.php/Category:Attack
+
+
+Directory Transversal Attack
+----------------------------------------
+https://en.wikipedia.org/wiki/Directory_traversal_attack
+https://www.owasp.org/index.php/Path_Traversal
