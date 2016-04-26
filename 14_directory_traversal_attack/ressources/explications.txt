@@ -1,0 +1,7 @@
+En jouant avec ?page=..., on a des alertes nous indiquant qu'il y a un truc à faire. Jouer avec les `../../..` ne suffis pas, il manque un truc.
+
+En cherchant de la doc, on réaliste que le premier exemple du Directory traversal attack sur wikipedia marche!
+
+https://en.wikipedia.org/wiki/Directory_traversal_attack
+>>> ../../../../../../../../../etc/passwd
+Bingo!
