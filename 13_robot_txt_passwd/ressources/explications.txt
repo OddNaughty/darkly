@@ -1,0 +1,7 @@
+On a epliqué dans l'exo avant qu'on a trouvé 2 entrées dans `robots.txt`.
+
+La seconde contient un fichier `htpasswd` qui contient `root:8621ffdbc5698829397d97767ac13db3`.
+
+Si on cherche la correspondance md5 de ce hash en ligne, on tombe sur `dragon`.
+
+Si on rentre `root` et `dragon` dans /admin, on a le flag!

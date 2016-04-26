@@ -1,0 +1,5 @@
+En regardant dans {url}/robots.txt on trouve 2 fichiers. L'un d'eux est `/.hidden`, et contient 38274982374982174912847 répertoires, et contient 57439854379 fichiers `README`.
+
+J'ai fait un petit script qui iter sur chaque url trouvée et récupère chaque README. A la fin on vire les doublons, et on les affiches tous.
+
+Bem! L'un d'eux est un flag.
