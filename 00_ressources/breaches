@@ -5,7 +5,7 @@ http://192.168.7.128/?page=feedback ==> <SCRIPT>TROLOL</SCRIPT>
 http://192.168.7.128/?page=signin
 http://192.168.7.128/?page=upload
 http://192.168.7.128/?page=media&src=nsa
-
+http://192.168.7.128/?page=media&src=../../../../
 --------------------------------------------------
 Pistes:
 - On a conseillé d'installer NoScript et Firebug mais on a encore rien trouvé avec du JS. Check de ce coté là?

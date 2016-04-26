@@ -1,0 +1,8 @@
+http://192.168.229.128/?page=signin
+
+Après quelques tentatives, l'injection SQL n'a pas l'air de trop marcher sur ce formulaire. Par contre les valeurs sont envoyées via GET, donc un script pour tester des dictionaires ne va pas etre trop relou à coder.
+
+Avec 2 petits dictionaires et un magnifique script python, on commence le bruteforce.
+Coup de moule, sur 28400 possibilités ca trouve au bout du 25ème o/
+Le login est `admin` et le password `shadow`.
+On rentre ca à la main, et voilà!

@@ -1,0 +1,6 @@
+Au départ je croyais qu'il fallait aller chercher un fichier/dossier bizarre avec le path... Mais on m'a dit que ce n'était pas aussi compliqué et qu'il fallait juste que je mette un truc de ma main.
+Apres moult essais tordus, je tente d'upload une "image" qui contient une balise script avec un alert().
+Pour cela, j'encode en base64 un "<script> alert ("lol") </script>" et puis bim ca marche.
+result = openssl enc -base64 <<< "<script> alert ("lol") </script>"
+result = "data:text/html;base64," + result et puis ca va ans le parametre get "src" et ca marche.
+Faut vraiment etre cinglé entre nous......
