@@ -5,3 +5,10 @@ Directory Transversal Attack
 ----------------------------------------
 https://en.wikipedia.org/wiki/Directory_traversal_attack
 https://www.owasp.org/index.php/Path_Traversal
+
+
+XSS
+----------------------------------------
+https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+http://alihassanpenetrationtester.blogspot.fr/2013/01/bypassing-xss-filters-advanced-xss.html
+https://www.exploit-db.com/papers/15446/
